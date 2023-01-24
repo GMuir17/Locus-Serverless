@@ -1,4 +1,4 @@
 /* eslint-disable import/no-anonymous-default-export */
-import lodges from './lodges'
+import sites from './sites'
 
 export default { sites }
