@@ -5,6 +5,7 @@ import functions from './src/functions/index'
 const serverlessConfiguration: AWS = {
     service: 'locus',
     frameworkVersion: '3',
+    useDotenv: true,
     plugins: [
         'serverless-offline',
         'serverless-esbuild',
